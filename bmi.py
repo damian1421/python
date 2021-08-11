@@ -1,4 +1,5 @@
-#your code goes here
+# Description: Utility to calculate your Body Mass Index
+# Author: l0gg3r
 import os
 os.system("clear")
 print ("Welcome to BMI calculator")
