@@ -53,7 +53,7 @@ try:
     #Reverse calculation
     reverse_calculation = input('Would you like to check how many days you can store? Yes-No: ')
     if "y" in reverse_calculation or "Y" in reverse_calculation:
-        how_many_TB = int(input("How many TB is in your storage?: "))
+        how_many_TB = float(input("How many TB is in your storage?: "))
         how_many_days = int(how_many_TB / ((cameras * (cam_max_bitrate / 8 ))* 86400 / 1073741824))
         print(f"{how_many_TB} TB hold recordings of {cameras} cameras for {how_many_days} days.")
 except Exception as error:
