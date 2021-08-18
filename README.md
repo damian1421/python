@@ -1,6 +1,4 @@
-# Python scripts
-
-## for Begginers
+# Python scripts *for Begginers*
 
 ### CCTV-STORAGE-CALCULATOR
 -Calculate needed storage while by knowing number of cameras, bitrate (CBR-VBR), retention days.
